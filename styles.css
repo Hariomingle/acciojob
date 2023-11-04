@@ -1,0 +1,63 @@
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Style the navigation bar */
+.navbar {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the Courses Offered section */
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Style course cards */
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.section.bg-light {
+    background-color: #fff;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
